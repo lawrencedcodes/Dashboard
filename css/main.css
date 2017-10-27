@@ -115,7 +115,7 @@ header {
             padding: 20px;
             width: 100%;
             overflow: auto;
-            height: 50px;
+            height: 150px;
           }
 .content-area .cards .card1 .user-img {
   background: url("https://randomuser.me/api/portraits/men/7.jpg") no-repeat center center;
