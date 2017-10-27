@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #EAEDF3;
+}
+
+#sideMenu {
+  background: #302D43;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+#sideMenu nav {
+  padding-top: 100px;
+}
+#sideMenu nav a {
+  color: gray;
+  text-decoration: none;
+  padding: 15px 30px;
+  display: block;
+  font-weight: 300;
+  transition: all .3s ease-in-out;
+}
+#sideMenu nav a:hover {
+  background: purple;
+  border-left: 5px solid Green;
+  padding: 15px 30px 15px 25px;
+  color: green;
+}
+#sideMenu nav a .fa {
+  color: gray;
+  font-size: 1.4rem;
+  margin-right: .8rem;
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  top: 2px;
+}
+#sideMenu nav a.active {
+  background: purple;
+  border-left: 5px solid Green;
+  padding: 15px 30px 15px 25px;
+}
+#sideMenu nav a.active .fa {
+  color: Green;
+}
+
+.search-area {
+  float: left;
+  width: 80%;
+}
+
+input[type=text] {
+  width: 200px;
+  transition: width .4s ease-in-out;
+  -webkit-transition: width .4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+.user-area {
+  float: left;
+  width: 20%;
+}
+
+header {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.content-area {
+  margin-left: 280px;
+  padding: 15px;
+}
+.content-area .heading h1 {
+  color: purple;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.content-area .heading p {
+  color: dimgrey;
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
+.content-area .cards .card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: auto;
+}
+.card1 {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            width: 100%;
+            overflow: auto;
+          }
+.content-area .cards .card1 .user-img {
+  background: url("https://randomuser.me/api/portraits/men/7.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.content-area .cards .card1 .user-name {
+  font-size: 1rem;
+  color: purple;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+.content-area .cards .card1 .user-title {
+  font-size: .8rem;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+.education {
+        font-size: .7rem;
+        padding: 0 15px;
+        display: inline-block;
+        float: left;
+        overflow: auto;
+    }
+
+.schools {
+        font-size: .7rem;
+        padding: 0 15px;
+        display: inline-block;
+        float: right;
+    }
+.col-md-2 {
+    width: 20%;
+    padding: 15px;
+    display: inline-block;
+    float: left;
+}
+.col-md-4 {
+  width: 33%;
+  float: left;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.col-md-3 {
+  width: 25%;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.col-md-12 {
+  width: 100%;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.table {
+  background: #fff;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+th {
+  background: #EAEDF3;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+tbody tr td {
+  margin: 100px 0;
+}
+
+th, td {
+  text-align: left;
+  line-height: 40px;
+  font-size: .7rem;
+}
+.card2 {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-top: -15px;
+}
+.card2 .user-title2 {
+  font-size: .8rem;
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  display: inline-block;
+}
+.card2 .fa {
+  float: right;
+}
+.card2 .date {
+  margin: 5px 0;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  border-left: 5px solid Green;
+}
+.card2 .job-type {
+  background: #ff6a00;
+  border-radius: 50%;
+  padding: 7px;
+}
+.card2 .company {
+  margin: 4px 2px;
+  padding: 4px 2px;
+}
+.card2 .title {
+  font-weight: 700;
+}
+.card2 .time {
+  font-size: .8rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.icon1 {
+        background: #4800ff;
+        margin: 5px;
+        padding: 3px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .icon2 {
+        background: #00ff21;
+        margin: 5px;
+        padding: 3px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .icon3 {
+        background: #ff6a00;
+        margin: 5px;
+        padding: 3px;
+        border-radius: 50%;
+        color: white;
+    }
