@@ -65,6 +65,9 @@ header .user-area .fa {
 header .top-icons .fa {
   color: purple;
 }
+header .top-icons{
+  color: purple;
+}
 input[type=text] {
   width: 200px;
   transition: width .4s ease-in-out;
