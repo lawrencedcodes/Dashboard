@@ -56,6 +56,9 @@ body {
   float: left;
   width: 80%;
 }
+.search-area .fa {
+  color: purple;
+}
 
 input[type=text] {
   width: 200px;
