@@ -66,6 +66,7 @@ header .top-icons .fa {
   color: purple;
 }
 header .top-icons{
+  font-weight: 300;
   color: purple;
 }
 input[type=text] {
