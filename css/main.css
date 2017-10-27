@@ -59,7 +59,12 @@ body {
 header .search-area .fa {
   color: purple;
 }
-
+header .user-area .fa {
+  color: purple;
+}
+header .top-icons .fa {
+  color: purple;
+}
 input[type=text] {
   width: 200px;
   transition: width .4s ease-in-out;
