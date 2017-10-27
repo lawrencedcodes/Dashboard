@@ -57,13 +57,16 @@ body {
   width: 80%;
 }
 header .search-area .fa {
-  color: purple;
+  color: purple
+    font-weight: 300;
 }
 header .user-area .fa {
   color: purple;
+  font-weight: 300;
 }
 header .top-icons .fa {
   color: purple;
+  font-weight: 300;
 }
 header .top-icons{
   font-weight: 300;
