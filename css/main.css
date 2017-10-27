@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #BEBEBE;
+  background-image: url("office.jpg");
+  background-size: cover;
 }
 
 #sideMenu {
